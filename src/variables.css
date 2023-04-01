@@ -1,7 +1,10 @@
 :root {
     --primary-color: #FFA500;
-    --secondary-color-1: #FFC107;
-    --secondary-color-2: #FF5722;
-    --accent-color-1: #FEC94F;
-    --accent-color-2: #FF8A65;
+    --secondary-color: #FFC107;
+    --tertiary-color: #FF5722;
+    --accent-primary-color: #FEC94F;
+    --accent-secondary-color: #FF8A65;
+
 }
+
+
