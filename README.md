@@ -47,7 +47,11 @@ This is a private internal project for a food delivery app built with React. The
 
 ## 🎨 Design
 
-The design of this app was created using Figma. You can view the design here: [Figma Link](https://www.figma.com/file/Ko8egmw3uhSwDUNakD33M2/Food_Delivery_Website?node-id=0-1&t=EomfDv7bDY6z3geH-0)
+<p>
+    The design of this app was created using FIGMA. The design was created after a discussion with the product owner to get a sense of requirements for the final product. The basic branding of the service was done first. The information architecture of the website was then structured after conducting study on a few products in the same category. The design was implemented after getting a clear idea about the product.
+</p>
+
+You can view the design here: [Figma Link](https://www.figma.com/file/Ko8egmw3uhSwDUNakD33M2/Food_Delivery_Website?node-id=0-1&t=EomfDv7bDY6z3geH-0)
 
 ## 📝 Jira Project Board
 
@@ -74,16 +78,24 @@ To build the app for production, use the following command: `npm run build`
 
 ## Version of Dependencies
 
+![Node](https://img.shields.io/badge/Node-18.5.0-blue?style=for-the-badge)
+
 ![React](https://img.shields.io/badge/React-18.2.0-blue?style=for-the-badge)
-<br>
+
 ![React-DOM](https://img.shields.io/badge/React--DOM-18.2.0-blue?style=for-the-badge)
-<br>
+
 ![React-Scripts](https://img.shields.io/badge/React--Scripts-5.0.1-blue?style=for-the-badge)
-<br>
+
 ![Web-Vitals](https://img.shields.io/badge/Web--Vitals-2.1.4-blue?style=for-the-badge)
-<br>
+
 ![Firebase](https://img.shields.io/badge/Firebase-9.18.0-blue?style=for-the-badge)
-<br>
+
+![Emotion/React](https://img.shields.io/badge/Emotion/React-11.10.6-blue?style=for-the-badge)
+
+![Emotion/Styled](https://img.shields.io/badge/Emotion/Styled-11.10.6-blue?style=for-the-badge)
+
+![mui/material](https://img.shields.io/badge/mui/material-5.11.11-blue?style=for-the-badge)
+
 
 ## 🤝 Contributors
 
