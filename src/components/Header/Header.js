@@ -11,6 +11,8 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import brand_img from './../../brand.svg'
+import { PRIMARY_COLOR } from '../../colors';
+import { bgcolor } from '@mui/system';
 
 
 
@@ -155,6 +157,18 @@ function Header() {
                             ))}
                         </Menu>
                     </Box>
+                    
+                    <Button
+                     sx={{ my: 2, color:'#333',}}
+                     variant="outlined"color='warning'>
+                        Sign-up
+                     </Button>
+                     <Button
+                     sx={{ my: 2,mx:3, color:'#333',background:PRIMARY_COLOR}}
+                     variant="">
+                        Sign-in
+                     </Button>
+                  
                 </Toolbar>
             </Container>
         </AppBar>
