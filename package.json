@@ -42,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<details>\r <summary>Table of Contents</summary>\r <br>\r <ul>\r <br>",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
