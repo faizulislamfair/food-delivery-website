@@ -54,10 +54,18 @@ This is a private internal project for a food delivery app built with React. The
 You can view the design here: [Figma Link](https://www.figma.com/file/Ko8egmw3uhSwDUNakD33M2/Food_Delivery_Website?node-id=0-1&t=EomfDv7bDY6z3geH-0)
 
 ## 📝 Jira Project Board
+Jira project board is a tool that was used throughout the development process. Jira's project management capabilities allowed us to plan, track, and prioritize tasks in an organized and efficient manner.
+
+With Jira we were able to create user stories, set project milestones, and manage sprints. The tool's customizable dashboards and reports provided real-time visibility into the project's progress, allowing us to make data-driven decisions and adjust priorities as needed.
+
+Jira also enabled seamless collaboration amongst the team members, allowing us to communicate about project updates and issues directly within the platform.
+
+Overall, Jira proved to be an invaluable asset to this project, enabling streamlined project management and fostering effective team collaboration.
 
 You can find the Jira project board for this project here: [Jira Link](https://irstproject.atlassian.net/jira/software/projects/FD/boards/2)
 
 ## 🚀 Live App
+Firebase Hosting was used to deploy and host this project. Firebase Hosting provided a fast and reliable hosting solution that made it easy to deploy and manage the website.
 
 You can view the live version of the app here: [Live URL](https://food-delivery-website-60505.firebaseapp.com/)
 
@@ -115,10 +123,18 @@ We follow the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0
 
 We would like to thank the following open-source projects and libraries for their contributions to this app:
 
-- React
-- Firebase
-- Material UI
-- React Router
+- <b> React </b> <br>
+React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. Its component-based architecture allowed us to create reusable UI elements and efficiently manage the product state. It is maintained by Meta and a community of individual developers and companies.
+
+- <b> Firebase </b> <br>
+Firebase is a set of backend cloud computing services and application development platforms provided by Google. It hosts databases, services, authentication, and integration for a variety of applications.
+
+- <b> Material UI </b> <br>
+Material UI is a popular React component library that provided us with pre-built UI components and a customizable design system. Material UI's extensive documentation and community support made it easy for us to style the project and ensure a consistent look and feel.
+
+- <b> React Router </b> <br>
+React Router is a routing library for React that provided us with declarative routing and navigation. React Router allowed us to define the application's structure and handle page transitions with ease.
+
 
 ## 📄 License
 
