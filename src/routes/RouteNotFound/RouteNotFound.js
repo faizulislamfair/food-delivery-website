@@ -8,11 +8,11 @@ const RouteNotFound = () => {
         <Container sx={{
             marginY: 12,
             padding: 12,
-            backgroundColor: '#F0BE90',
+            backgroundColor: '#FF8A65',
             fontSize: 35,
             fontWeight: 'bold',
             textAlign: 'center',
-            border: 'solid 2px #F0BE90',
+            border: 'solid 2px #FF8A65',
             borderRadius: '15px',
             width: '50%'
         }}>
