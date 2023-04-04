@@ -1,12 +1,27 @@
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
-import { PRIMARY_COLOR } from './colors.js';
-import Header from './components/Header/Header';
+import Main from './layout/Main';
+import RouteNotFound from './routes/RouteNotFound/RouteNotFound';
 
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main></Main>,
+      children: [
+
+      ]
+    },
+    {
+      path: '*', element: <RouteNotFound></RouteNotFound>
+    }
+  ])
+
   return (
     <div>
-      <Header></Header>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
