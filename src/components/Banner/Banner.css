@@ -1,0 +1,15 @@
+@import url('./../../variables.css');
+
+
+.banner_button {
+    background-color: var(--primary-color);
+    color: '#1E1E1E';
+    background-image: url(./../../button_arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.banner_button:hover {
+    background-color: var(--secondary-color);
+    background-image: url(./../../hovered_button_arrow.svg);
+}
