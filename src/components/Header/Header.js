@@ -167,20 +167,20 @@ function Header() {
                             </Menu>
                         </Box>
                         <Grid item md={3}>
-                        <Stack direction="row"
+                            <Stack direction="row"
                                 justifyContent="center"
                                 alignItems="center">
-                                
-                            <Button
-                                sx={{ my: 2, color: '#333', }}
-                                variant="outlined" color='warning'>
-                                Sign-up
-                            </Button>
-                            <Button
-                                sx={{ my: 2, mx: 3, color: '#333', background: PRIMARY_COLOR }}
-                                variant="">
-                                Sign-in
-                            </Button>
+
+                                <Button
+                                    sx={{ my: 2, color: '#333', }}
+                                    variant="outlined" color='warning'>
+                                    Sign-up
+                                </Button>
+                                <Button
+                                    sx={{ my: 2, mx: 3, color: '#333', background: PRIMARY_COLOR }}
+                                    variant="">
+                                    Sign-in
+                                </Button>
                             </Stack>
                         </Grid>
 
