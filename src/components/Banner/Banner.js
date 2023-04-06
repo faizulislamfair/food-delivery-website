@@ -3,8 +3,8 @@ import Box from '@mui/material/Box';
 import './Banner.css';
 import { Button, Grid, Typography } from '@mui/material';
 import { PRIMARY_COLOR, SECONDARY_COLOR, TERTIARY_COLOR } from './../../colors';
-import bike from './../../bike.svg'
-import banner_arrow from './../../banner_arrow.svg'
+import bike from './../../assets/bike.svg'
+import banner_arrow from './../../assets/banner_arrow.svg'
 
 
 const Banner = () => {

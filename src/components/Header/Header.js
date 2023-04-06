@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import brand_img from './../../brand.svg'
+import brand_img from './../../assets/brand.svg'
 import { PRIMARY_COLOR } from '../../colors';
 import { Grid } from '@mui/material';
 import { Stack } from '@mui/system';

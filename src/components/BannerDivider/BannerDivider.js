@@ -3,10 +3,10 @@ import './BannerDivider.css';
 import { Box, Grid } from '@mui/material';
 import { TERTIARY_COLOR, ACCENT_SECONDARY_LIGHT_COLOR } from './../../colors';
 import Typography from '@mui/material/Typography';
-import divider_arrow from './../../divider_arrow.svg';
-import divider_person_one from './../../divider_person_one.svg';
-import divider_person_two from './../../divider_person_two.svg';
-import divider_person_three from './../../divider_person_three.svg';
+import divider_arrow from './../../assets/divider_arrow.svg';
+import divider_person_one from './../../assets/divider_person_one.svg';
+import divider_person_two from './../../assets/divider_person_two.svg';
+import divider_person_three from './../../assets/divider_person_three.svg';
 
 
 const BannerDivider = () => {
