@@ -4,6 +4,7 @@ import BannerText from './../BannerText/BannerText';
 import Banner from './../Banner/Banner';
 import About from './../About_us/About';
 import BannerDivider from './../BannerDivider/BannerDivider';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Banner></Banner>
             <BannerDivider></BannerDivider>
             <About></About>
+            <Testimonial/>
         </div>
     );
 };
