@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
             <Container sx={{
-                mt: 15
+                mt: 8
             }} maxWidth="xl">
                 <Box sx={{
                     py: 5,
