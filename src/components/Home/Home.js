@@ -6,6 +6,7 @@ import BannerDivider from './../BannerDivider/BannerDivider';
 import About from './../About_us/About';
 import FeaturedDishes from './../FeaturedDishes/FeaturedDishes';
 import Testimonial from '../Testimonial/Testimonial';
+import CallToAction from './../CallToAction/CallToAction';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <About />
             <FeaturedDishes />
             <Testimonial />
+            <CallToAction />
         </div>
     );
 };

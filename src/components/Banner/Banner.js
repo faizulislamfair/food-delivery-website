@@ -56,7 +56,7 @@ const Banner = () => {
                             transition: '0.2s linear',
                             transitionDelay: '0.3s',
                             mt: -7
-                        }}>
+                        }} disableElevation>
                             <Typography sx={{
                                 textTransform: 'capitalize',
                                 fontFamily: 'Montserrat, Arial, sans-serif',
