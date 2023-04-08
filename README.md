@@ -22,7 +22,7 @@
 [Running the App](#💻-running-the-app)
 <br>
 
-[Version of Packages](#version-of-packages)
+[Version of Dependencies](#💼-version-of-dependencies)
 <br>
 
 [Contributors](#🤝-contributors)
@@ -31,10 +31,10 @@
 [Commit Messages](#📝-commit-messages)
 <br>
 
-[Contributing](#contributing)
+[Acknowledgements](#🙏-acknowledgments)
 <br>
 
-[Acknowledgements](#🙏-acknowledgments)
+[License](#📄-license)
 
 <br>
 </ul>
@@ -43,7 +43,10 @@
 # 🍔 Food Delivery App with React
 
 ## 💬 About the Project
-This is a private internal project for a food delivery app built with React. The purpose of this app is to allow customers to order food from local restaurants for delivery.
+This is a private internal project for a food delivery app built with React. The purpose of this app is to offer a user-friendly and efficient way to order food online. This website is designed to offer a seamless experience for customers who are looking for a hassle-free way to order food from their favorite restaurants. This food delivery website offers a convenient and efficient way for customers to order food online. With its user-friendly interface, intuitive ordering system, and real-time order tracking, it is designed to make the food delivery experience as seamless as possible.
+
+![Homepage Screenshot](./readme-images/homepage_screenshot_1.png "homepage1")
+![Homepage Screenshot](./readme-images/homepage_screenshot_2.png "homepage2")
 
 ## 🎨 Design
 
@@ -84,7 +87,7 @@ To run the app in development mode, use the following command: `npm start`
 
 To build the app for production, use the following command: `npm run build`
 
-## Version of Dependencies
+## 💼 Version of Dependencies
 
 ![Node](https://img.shields.io/badge/Node-18.5.0-blue?style=for-the-badge)
 
@@ -107,12 +110,24 @@ To build the app for production, use the following command: `npm run build`
 
 ## 🤝 Contributors
 
-- Fahim (Project Manager)
-- Rabby (Product Owner)
-- Faizul (Team lead & Frontend Engineer)
-- Galib (Frontend Engineer)
-- Turag (UI/UX Designer)
-- Zayed (QA & Technical Writer)
+- [Fahim Shariar](https://github.com/1810002) (Project Manager) <br>
+Fahim Shariar was responsible for overseeing the production of all deliverables, including planning and monitoring the project's progress, conducting daily standups, and ensuring that all tasks were completed on schedule.
+
+- [Md Rabby](https://github.com/Rabbi1810014) (Product Owner) <br>
+Md Rabby's primary role was to define user stories and create a product backlog. He served as the main point of contact on behalf of the client and identified all product requirements to ensure that the final product meets the client's needs.
+
+- [S.M. Faizul Islam Fair](https://github.com/faizulislamfair) (Team lead & Frontend Engineer)<br>
+As a team lead and frontend engineer Faizul was responsible for overseeing the entire frontend development process and ensuring that the team delivered high-quality results. It was his responsilbity to design and implement the user interface and user experience of the software application.
+
+- [Musanna Galib](https://github.com/galib100) (Frontend Engineer) <br>
+Musanna Galib played a critical role in the development of the website, and was responsible for creating a user-friendly and engaging interface that enhanced the user experience. He worked collaboratively with [Faizul](https://github.com/faizulislamfair) in Frontend development in the project.
+
+- [Md Turag Islam](https://github.com/TuragLab) (UI/UX Designer) <br>
+As the UI/UX designer of the project Md Turag Islam ensured that the website is visually appealing, easy to use, and provides an optimal user experience. His work helped to enhance the overall quality of the website and ensured that it met the needs of the target audience.
+
+- [Md Zayed Al Masud](https://github.com/Zayed-26) (QA & Technical Writer)<br>
+As the role of a QA  in the project Md Zayed Al Masud's job was to ensure the quality of the end product, by identifying and reporting any defects or issues that may impact the user experience. On the other hand, as the role of a technical writer his job was to create documentation that helps other in providing information about the project.
+
 
 ## 📝 Commit Messages
 
