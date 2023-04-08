@@ -7,6 +7,7 @@ import About from './../About_us/About';
 import FeaturedDishes from './../FeaturedDishes/FeaturedDishes';
 import Testimonial from '../Testimonial/Testimonial';
 import CallToAction from './../CallToAction/CallToAction';
+import LinkFindContact from '../LinkFindContact/LinkFindContact';
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
+            <LinkFindContact/>
         </div>
     );
 };
