@@ -14,7 +14,6 @@ const LinkFindContact = () => {
                     px: 16,
                     my: 10,
                 }}>
-
                     <Grid item md={4}>
                         <Typography sx={{
                             fontWeight: '600',
@@ -126,7 +125,7 @@ const LinkFindContact = () => {
     )
 }
 
-export default LinkFindContact
 
+export default LinkFindContact
 
 
