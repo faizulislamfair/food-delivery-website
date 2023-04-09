@@ -34,7 +34,6 @@ const FeaturedDishes = () => {
 
 
                     <Typography sx={{
-                        fontFamily: 'Montserrat, Arial, sans-serif',
                         fontWeight: '700',
                         fontSize: '40px',
                         lineHeight: '48px',
@@ -44,7 +43,6 @@ const FeaturedDishes = () => {
                         Featured Dishes
                     </Typography>
                     <Typography sx={{
-                        fontFamily: 'Montserrat, Arial, sans-serif',
                         fontWeight: '400',
                         fontSize: '20px',
                         lineHeight: '32px',
@@ -63,7 +61,6 @@ const FeaturedDishes = () => {
                         mt: 3
                     }}>
                         <Typography sx={{
-                            fontFamily: 'Montserrat, Arial, sans-serif',
                             fontWeight: '600',
                             fontSize: '16px',
                             lineHeight: '24px',
@@ -114,7 +111,6 @@ const FeaturedDishes = () => {
                                 marginBottom: '16px'
                             }} src={ramen} alt="" />
                             <Typography sx={{
-                                fontFamily: 'Montserrat, Arial, sans-serif',
                                 fontWeight: '700',
                                 fontSize: '20px',
                                 lineHeight: '32px',
@@ -134,7 +130,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={clock} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -151,7 +146,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={customer} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -174,7 +168,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={star} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -186,7 +179,6 @@ const FeaturedDishes = () => {
                                 </Box>
                                 <Typography sx={{
                                     color: TERTIARY_COLOR,
-                                    fontFamily: 'Montserrat, Arial, sans-serif',
                                     fontWeight: '500',
                                     fontSize: '14px',
                                     lineHeight: '32px',
@@ -200,7 +192,6 @@ const FeaturedDishes = () => {
                                 width: '135px',
                                 height: '36px',
                                 color: '#1E1E1E',
-                                fontFamily: 'Montserrat, Arial, sans-serif',
                                 fontWeight: '500',
                                 fontSize: '12px',
                                 lineHeight: '15px',
@@ -234,7 +225,6 @@ const FeaturedDishes = () => {
                                 marginBottom: '16px'
                             }} src={pizza} alt="" />
                             <Typography sx={{
-                                fontFamily: 'Montserrat, Arial, sans-serif',
                                 fontWeight: '700',
                                 fontSize: '20px',
                                 lineHeight: '32px',
@@ -254,7 +244,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={clock} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -271,7 +260,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={customer} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -294,7 +282,6 @@ const FeaturedDishes = () => {
                                 }}>
                                     <img src={star} alt="" />
                                     <Typography sx={{
-                                        fontFamily: 'Montserrat, Arial, sans-serif',
                                         fontWeight: '500',
                                         fontSize: '14px',
                                         lineHeight: '32px',
@@ -306,7 +293,6 @@ const FeaturedDishes = () => {
                                 </Box>
                                 <Typography sx={{
                                     color: TERTIARY_COLOR,
-                                    fontFamily: 'Montserrat, Arial, sans-serif',
                                     fontWeight: '500',
                                     fontSize: '14px',
                                     lineHeight: '32px',
@@ -320,7 +306,6 @@ const FeaturedDishes = () => {
                                 width: '135px',
                                 height: '36px',
                                 color: '#1E1E1E',
-                                fontFamily: 'Montserrat, Arial, sans-serif',
                                 fontWeight: '500',
                                 fontSize: '12px',
                                 lineHeight: '15px',
@@ -361,3 +346,6 @@ const FeaturedDishes = () => {
 };
 
 export default FeaturedDishes;
+
+
+
