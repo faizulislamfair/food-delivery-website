@@ -22,7 +22,6 @@ const Banner = () => {
                     flexDirection: 'column'
                 }}>
                     <Typography sx={{
-                        fontFamily: 'Montserrat, Arial, sans-serif',
                         fontWeight: '600',
                         fontSize: '20px',
                         lineHeight: '32px',
@@ -32,7 +31,6 @@ const Banner = () => {
                         Order from your favorite local restaurants and enjoy hassle-free delivery with PlateDrop. We're dedicated to bringing you fast, friendly service and mouth-watering meals that are sure to satisfy.
                     </Typography>
                     <Typography sx={{
-                        fontFamily: 'Montserrat, Arial, sans-serif',
                         fontWeight: '600',
                         fontSize: '20px',
                         lineHeight: '32px',
@@ -59,7 +57,6 @@ const Banner = () => {
                         }} disableElevation>
                             <Typography sx={{
                                 textTransform: 'capitalize',
-                                fontFamily: 'Montserrat, Arial, sans-serif',
                                 fontSize: '20px',
                                 lineHeight: '32px',
                                 fontWeight: '700',
@@ -77,3 +74,6 @@ const Banner = () => {
 };
 
 export default Banner;
+
+
+

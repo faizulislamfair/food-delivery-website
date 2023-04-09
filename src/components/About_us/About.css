@@ -1,5 +1,28 @@
+.aboutText>.highlight {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
 
-.aboutText:hover> .highlight{
+.aboutText:hover>.highlight {
     color: var(--secondary-color);
     text-decoration: underline;
+    animation: underline-appear 0.3s ease-in-out 0.3s forwards;
 }
+
+
+.grid-item:hover>.grid-text {
+    color: var(--secondary-color);
+}
+
+
+@keyframes underline-appear {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+

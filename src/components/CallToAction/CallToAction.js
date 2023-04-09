@@ -30,7 +30,6 @@ const CallToAction = () => {
 
 
                 <Typography sx={{
-                    fontFamily: 'Montserrat, Arial, sans-serif',
                     fontWeight: '700',
                     fontSize: '40px',
                     lineHeight: '48px'
@@ -42,7 +41,6 @@ const CallToAction = () => {
 
 
                 <Typography sx={{
-                    fontFamily: 'Montserrat, Arial, sans-serif',
                     fontWeight: '500',
                     fontSize: '16px',
                     lineHeight: '32px',
@@ -55,7 +53,6 @@ const CallToAction = () => {
                 <Button variant="contained" sx={{
                     width: 200,
                     height: 50,
-                    fontFamily: 'Montserrat, Arial, sans-serif',
                     fontWeight: '700',
                     fontSize: '18px',
                     lineHeight: '32px',
@@ -72,7 +69,6 @@ const CallToAction = () => {
                 }}>Sign up now &nbsp;<img style={{ marginRight: -7 }} src={cta_arrow} alt="" /></Button>
 
                 <Typography sx={{
-                    fontFamily: 'Montserrat, Arial, sans-serif',
                     fontWeight: '500',
                     fontSize: '16px',
                     lineHeight: '32px',
@@ -87,3 +83,5 @@ const CallToAction = () => {
 };
 
 export default CallToAction;
+
+
