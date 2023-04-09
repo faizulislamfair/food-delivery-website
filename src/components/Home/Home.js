@@ -9,6 +9,7 @@ import Testimonial from '../Testimonial/Testimonial';
 import CallToAction from './../CallToAction/CallToAction';
 import LinkFindContact from '../LinkFindContact/LinkFindContact';
 import StayUpToDate from '../StayUpToDate/StayUpToDate';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -23,6 +24,8 @@ const Home = () => {
             <CallToAction />
             <LinkFindContact />
             <StayUpToDate  />
+            <Footer />
+            
         </div>
     );
 };
