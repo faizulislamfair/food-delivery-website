@@ -1,0 +1,32 @@
+.inputFld{
+    box-sizing: border-box;
+
+width: 472px;
+height: 64px;
+
+/* Accent_color2_light */
+
+background: #FFE9E2;
+/* Secondary_Color2 */
+
+border: 1px solid #FF5722;
+border-radius: 16px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 10px;
+}
+.circleInput{
+
+    width: 24px;
+    height: 24px;
+    /* border: 1px solid #FF5722; */
+    border-radius: 16px !important;
+    /* Secondary_Color2 */
+    background: #FF5722 !important;
+    margin-top: 15px;
+    margin-right: 10px;
+}

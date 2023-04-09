@@ -8,6 +8,7 @@ import FeaturedDishes from './../FeaturedDishes/FeaturedDishes';
 import Testimonial from '../Testimonial/Testimonial';
 import CallToAction from './../CallToAction/CallToAction';
 import LinkFindContact from '../LinkFindContact/LinkFindContact';
+import StayUpToDate from '../StayUpToDate/StayUpToDate';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
             <Testimonial />
             <CallToAction />
             <LinkFindContact/>
+            <StayUpToDate/>
         </div>
     );
 };
