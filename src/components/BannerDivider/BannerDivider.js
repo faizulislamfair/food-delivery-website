@@ -30,7 +30,6 @@ const BannerDivider = () => {
                     </Box>
                     <Box>
                         <Typography sx={{
-                            fontFamily: 'Montserrat, Arial, sans-serif',
                             fontWeight: '600',
                             fontSize: '16px',
                             lineHeight: '24px',
@@ -51,7 +50,6 @@ const BannerDivider = () => {
                 }}>
                     <Typography sx={{
                         color: TERTIARY_COLOR,
-                        fontFamily: 'Montserrat, Arial, sans-serif',
                         fontWeight: '600',
                         fontSize: '16px',
                         lineHeight: '24px',
@@ -68,3 +66,6 @@ const BannerDivider = () => {
 };
 
 export default BannerDivider;
+
+
+

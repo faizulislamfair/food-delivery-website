@@ -10,7 +10,6 @@ const BannerText = () => {
             mt: '70px'
         }}>
             <Typography variant="h2" sx={{
-                fontFamily: 'Montserrat, Arial, sans-serif',
                 fontWeight: '800',
                 fontSize: '64px',
                 lineHeight: '78.02px',
@@ -24,3 +23,6 @@ const BannerText = () => {
 };
 
 export default BannerText;
+
+
+

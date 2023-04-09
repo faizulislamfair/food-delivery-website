@@ -20,9 +20,12 @@ const Home = () => {
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
-            <LinkFindContact/>
+            <LinkFindContact />
         </div>
     );
 };
 
 export default Home;
+
+
+
