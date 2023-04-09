@@ -21,8 +21,8 @@ const Home = () => {
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
-            <LinkFindContact/>
-            <StayUpToDate/>
+            <LinkFindContact />
+            <StayUpToDate  />
         </div>
     );
 };
