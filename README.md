@@ -133,7 +133,6 @@ Currently there are 6 contributors for this repository.
 </a>
 <a href = "https://github.com/1810002">
 <img src="https://github.com/faizulislamfair.png?size=60" style="border-radius:50%">
-</style>
 </a>
 <a href = "https://github.com/1810002">
 <img src="https://github.com/galib100.png?size=60" style="border-radius:50%">
