@@ -9,15 +9,27 @@ import divider_person_two from './../../assets/divider_person_two.svg';
 import divider_person_three from './../../assets/divider_person_three.svg';
 
 
+
+
 const BannerDivider = () => {
+
     return (
-        <Box sx={{ flexGrow: 1, mt: 17, backgroundColor: ACCENT_SECONDARY_LIGHT_COLOR, height: '124px' }}>
-            <Grid container spacing={2}>
-                <Grid item xs={10} md={6} sx={{
+        <Box sx={{
+            mt: 17,
+            pt: 2,
+            pb: 3,
+            backgroundColor: ACCENT_SECONDARY_LIGHT_COLOR,
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+        }}>
+            <Grid container spacing={1}>
+
+                <Grid item md={6} lg={6} sx={{
                     display: 'flex',
                     justifyContent: 'flex-end',
                     alignItems: 'center',
-                    mt: 2
+                    mt: 2,
                 }} className='divider-animation'>
                     <Box>
                         <img src={divider_person_one} alt="divider person one" />
@@ -41,7 +53,9 @@ const BannerDivider = () => {
                         </Typography>
                     </Box>
                 </Grid>
-                <Grid item xs={10} md={4} sx={{
+
+
+                <Grid item md={4} lg={4} sx={{
                     display: 'flex',
                     flexDirection: 'row',
                     alignItems: 'center',
