@@ -32,12 +32,12 @@ const About = () => {
                 </Typography>
 
 
-                <Grid container spacing={2}>
+                <Grid container spacing={18}>
                     <Grid sx={{
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center'
-                    }} className='grid-item' item xs={10} sm={10} md={6} lg={4}>
+                    }} className='grid-item' item xs={12} sm={12} md={6} lg={4}>
                         < Box sx={{
                             mt: 24,
                             filter: 'grayscale(100%)',
@@ -64,7 +64,7 @@ const About = () => {
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center'
-                    }} className='grid-item' item xs={10} sm={10} md={6} lg={4}>
+                    }} className='grid-item' item xs={12} sm={12} md={6} lg={4}>
                         <Box sx={{
                             filter: 'grayscale(100%)',
                             transition: 'filter 0.2s ease',
@@ -90,7 +90,7 @@ const About = () => {
                         display: 'flex',
                         flexDirection: 'column',
                         alignItems: 'center'
-                    }} className='grid-item' item xs={10} sm={10} md={6} lg={4}>
+                    }} className='grid-item' item xs={12} sm={12} md={6} lg={4}>
                         < Box sx={{
                             filter: 'grayscale(100%)',
                             transition: 'filter 0.2s ease',

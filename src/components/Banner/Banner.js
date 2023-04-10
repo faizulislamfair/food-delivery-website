@@ -14,10 +14,15 @@ const Banner = () => {
                 direction="row"
                 justifyContent="center"
                 alignItems="center" spacing={1}>
-                <Grid item lg={7}>
-                    <img src={bike} alt="" />
+
+                <Grid item sm={10} md={8} lg={7}>
+                    <img style={{
+                        width: '90%',
+                    }} src={bike} alt="" />
                 </Grid>
-                <Grid item xs={5} alignSelf="flex-start" sx={{
+
+
+                <Grid item sm={10} md={5} lg={5} alignSelf="flex-start" sx={{
                     display: 'flex',
                     flexDirection: 'column'
                 }}>
@@ -26,7 +31,7 @@ const Banner = () => {
                         fontSize: '20px',
                         lineHeight: '32px',
                         textAlign: 'justify',
-                        width: '468px'
+                        maxWidth: '472px',
                     }}>
                         Order from your favorite local restaurants and enjoy hassle-free delivery with PlateDrop. We're dedicated to bringing you fast, friendly service and mouth-watering meals that are sure to satisfy.
                     </Typography>
@@ -41,9 +46,9 @@ const Banner = () => {
                     </Typography>
                     <Box>
                         <Button variant="contained" className='banner_button' sx={{
-                            width: '170px',
+                            width: '180px',
                             height: '48px',
-                            padding: '8px 30px 8px 16px',
+                            padding: '8px 30px 8px 6px',
                             borderRadius: '8px',
                             backgroundColor: PRIMARY_COLOR,
                             color: '#1E1E1E',
@@ -65,7 +70,9 @@ const Banner = () => {
                                 Order Now
                             </Typography>
                         </Button>
-                        <img style={{ marginLeft: '50px' }} src={banner_arrow} alt="" />
+                        <img style={{
+                            marginLeft: '50px',
+                        }} src={banner_arrow} alt="" />
                     </Box>
                 </Grid>
             </Grid>
