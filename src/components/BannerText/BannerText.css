@@ -1,0 +1,36 @@
+@import url('./../../variables.css');
+
+
+.food-text {
+    animation: color-change-food 1s ease-in-out 1s forwards;
+}
+
+
+@keyframes color-change-food {
+    from {
+        color: #1E1E1E;
+    }
+
+    to {
+        color: var(--accent-primary-color);
+    }
+}
+
+
+
+.doorstep-text {
+    animation: color-change-doorstep 1s ease-in-out 1s forwards;
+}
+
+
+@keyframes color-change-doorstep {
+    from {
+        color: #1E1E1E;
+    }
+
+    to {
+        color: var(--tertiary-color);
+    }
+}
+
+

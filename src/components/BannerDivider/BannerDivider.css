@@ -1,0 +1,29 @@
+.divider-animation:hover {
+    transform: translateX(70px);
+    transition: 0.5s ease-in-out;
+    padding-right: 20px;
+}
+
+
+.divider-animation:hover> :first-child> :nth-child(1) {
+    transform: translateX(0px);
+    transition: 0.5s ease-in-out;
+}
+
+.divider-animation:hover> :first-child> :nth-child(2) {
+    transition: 0.5s ease-in-out;
+    padding-left: 45px;
+}
+
+.divider-animation:hover> :first-child> :nth-child(3) {
+    transition: 0.5s ease-in-out;
+    padding-left: 45px;
+}
+
+
+.divider-animation:not(:hover) {
+    transition: 0.5s ease-in-out;
+}
+
+
+

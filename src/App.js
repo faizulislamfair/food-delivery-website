@@ -2,6 +2,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import './App.css';
 import Main from './layout/Main';
 import RouteNotFound from './routes/RouteNotFound/RouteNotFound';
+import Home from './components/Home/Home';
 
 
 function App() {
@@ -11,7 +12,10 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
-
+        {
+          path: '/',
+          element: <Home></Home>
+        }
       ]
     },
     {
