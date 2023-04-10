@@ -14,12 +14,16 @@ import brand_img from './../../assets/brand.svg'
 import { PRIMARY_COLOR } from '../../colors';
 import { Grid } from '@mui/material';
 import { Stack } from '@mui/system';
+import './Header.css';
+
 
 
 const pages = ['Home', 'Menu', 'Order', 'Blog', 'About', 'Contact'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pagesSmall = ['Home', 'Menu', 'Order', 'Blog', 'About', 'Contact', 'SIGN-UP', 'SIGN-IN'];
 
 function Header() {
+
+
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -34,9 +38,9 @@ function Header() {
         setAnchorElNav(null);
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
+    // const handleCloseUserMenu = () => {
+    //     setAnchorElUser(null);
+    // };
 
 
 
@@ -100,7 +104,7 @@ function Header() {
                                     display: { xs: 'block', md: 'none' }
                                 }}
                             >
-                                {pages.map((page) => (
+                                {pagesSmall.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
                                         <Typography textAlign="center">{page}</Typography>
                                     </MenuItem>
@@ -128,9 +132,21 @@ function Header() {
                                         <Button
                                             key={page}
                                             onClick={handleCloseNavMenu}
-                                            sx={{ my: 2, color: 'black', display: 'block' }}
+                                            sx={{
+                                                my: 5,
+                                                mx: 1,
+                                                color: 'black',
+                                                display: 'block',
+                                                fontWeight: '700',
+                                                fontSize: '14px',
+                                                lineHeight: '17px'
+                                            }}
                                         >
-                                            {page}
+                                            {
+                                                page === 'Home' ? <span style={{
+                                                    borderBottom: `2px solid ${PRIMARY_COLOR}`,
+                                                }}>{page}</span> : page
+                                            }
                                         </Button>
                                     ))}
                                 </Box>
@@ -143,7 +159,7 @@ function Header() {
                                     {/* <Avatar alt="Remy Sharp" src="" /> */}
                                 </IconButton>
                             </Tooltip>
-                            <Menu
+                            {/* <Menu
                                 sx={{ mt: '45px' }}
                                 id="menu-appbar"
                                 anchorEl={anchorElUser}
@@ -164,21 +180,46 @@ function Header() {
                                         <Typography textAlign="center">{setting}</Typography>
                                     </MenuItem>
                                 ))}
-                            </Menu>
+                            </Menu> */}
                         </Box>
                         {/* sign up  sign in button start  */}
-                        <Grid item md={3}>
+                        <Grid item md={3} sx={{
+                            display: { xs: 'none', sm: 'none', md: 'block', lg: 'block' }
+                        }}>
                             <Stack direction="row"
                                 justifyContent="center"
-                                alignItems="center">
+                                alignItems="center"
+                                sx={{
+                                    my: 4,
+                                }}
+                            >
 
                                 <Button
-                                    sx={{ my: 2, color: '#333', }}
+                                    sx={{
+                                        width: '100px',
+                                        height: '41px',
+                                        fontWeight: '700',
+                                        fontSize: '14px',
+                                        color: '#1E1E1E',
+                                        lineHeight: '17px',
+                                        border: `3px solid ${PRIMARY_COLOR}`,
+                                        borderRadius: '8px',
+                                        mr: 2
+                                    }}
                                     variant="outlined" color='warning'>
                                     Sign-up
                                 </Button>
                                 <Button
-                                    sx={{ my: 2, mx: 3, color: '#333', background: PRIMARY_COLOR }}
+                                    sx={{
+                                        width: '96px',
+                                        height: '41px',
+                                        fontWeight: '700',
+                                        fontSize: '14px',
+                                        color: '#1E1E1E',
+                                        lineHeight: '17px',
+                                        borderRadius: '8px',
+                                        background: PRIMARY_COLOR
+                                    }}
                                     variant="">
                                     Sign-in
                                 </Button>

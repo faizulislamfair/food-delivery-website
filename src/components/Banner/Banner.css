@@ -6,13 +6,11 @@
     color: '#1E1E1E';
     background-image: url(./../../assets/button_arrow.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: calc(100% - 12px) center;
 }
 
 .banner_button:hover {
     background-color: var(--secondary-color);
     background-image: url(./../../assets/hovered_button_arrow.svg);
+    background-position: calc(100% - 8px) center;
 }
-
-
-
