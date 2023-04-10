@@ -46,7 +46,6 @@
 This is a private internal project for a food delivery app built with React. The purpose of this app is to offer a user-friendly and efficient way to order food online. This website is designed to offer a seamless experience for customers who are looking for a hassle-free way to order food from their favorite restaurants. This food delivery website offers a convenient and efficient way for customers to order food online. With its user-friendly interface, intuitive ordering system, and real-time order tracking, it is designed to make the food delivery experience as seamless as possible.
 
 ![Homepage Screenshot](./readme-images/homepage_screenshot_1.png "homepage1")
-![Homepage Screenshot](./readme-images/homepage_screenshot_2.png "homepage2")
 
 ## 🎨 Design
 
@@ -54,7 +53,17 @@ This is a private internal project for a food delivery app built with React. The
     The design of this app was created using FIGMA. The design was created after a discussion with the product owner to get a sense of requirements for the final product. The basic branding of the service was done first. The information architecture of the website was then structured after conducting study on a few products in the same category. The design was implemented after getting a clear idea about the product.
 </p>
 
-You can view the design here: [Figma Link](https://www.figma.com/file/Ko8egmw3uhSwDUNakD33M2/Food_Delivery_Website?node-id=0-1&t=EomfDv7bDY6z3geH-0)
+You can view the design here: [Figma](https://www.figma.com/file/Ko8egmw3uhSwDUNakD33M2/Food_Delivery_Website?node-id=0-1&t=EomfDv7bDY6z3geH-0)
+
+## 🏀 Dribbble
+
+We used Dribbble to showcase our design process and share sneak peeks of our work with the design community.<br>
+You can view the dribbble shot here:  [Dribbble](https://dribbble.com/shots/21153245-PlateDrop-Your-Hassle-Free-Food-Delivery-Solution)
+
+![Dribble Shot](./readme-images/dribbble1.png "Dribble Shot")
+![Dribble Shot](./readme-images/dribble2.png "Dribble Shot")
+![Dribble Shot](./readme-images/dribble3.png "Dribble Shot")
+![Dribble Shot](./readme-images/dribble4.png "Dribble Shot")
 
 ## 📝 Jira Project Board
 Jira project board is a tool that was used throughout the development process. Jira's project management capabilities allowed us to plan, track, and prioritize tasks in an organized and efficient manner.
@@ -65,7 +74,7 @@ Jira also enabled seamless collaboration amongst the team members, allowing us t
 
 Overall, Jira proved to be an invaluable asset to this project, enabling streamlined project management and fostering effective team collaboration.
 
-You can find the Jira project board for this project here: [Jira Link](https://irstproject.atlassian.net/jira/software/projects/FD/boards/2)
+You can find the Jira project board for this project here: [Jira](https://irstproject.atlassian.net/jira/software/projects/FD/boards/2)
 
 ## 🚀 Live App
 Firebase Hosting was used to deploy and host this project. Firebase Hosting provided a fast and reliable hosting solution that made it easy to deploy and manage the website.
@@ -108,7 +117,31 @@ To build the app for production, use the following command: `npm run build`
 ![mui/material](https://img.shields.io/badge/mui/material-5.11.11-blue?style=for-the-badge)
 
 
+
 ## 🤝 Contributors
+
+Currently there are 6 contributors for this repository.
+
+<a href = "https://github.com/1810002">
+<img src="./readme-images/fahim.png" width="60" height="60" style="border-radius:50%">
+</a>
+<a href = "https://github.com/Rabbi1810014">
+<img src="./readme-images/rabby.png" width="60" height="60" style="border-radius:50%">
+</a>
+<a href = "https://github.com/TuragLab">
+<img src="./readme-images/turag.png" width="60" height="60" style="border-radius:50%">
+</a>
+<a href = "https://github.com/1810002">
+<img src="https://github.com/faizulislamfair.png?size=60" style="border-radius:50%">
+</style>
+</a>
+<a href = "https://github.com/1810002">
+<img src="https://github.com/galib100.png?size=60" style="border-radius:50%">
+</a>
+<a href = "https://github.com/1810002">
+<img src="https://github.com/Zayed-26.png?size=60" style="border-radius:50%">
+</a>
+<br><br>
 
 - [Fahim Shariar](https://github.com/1810002) (Project Manager) <br>
 Fahim Shariar was responsible for overseeing the production of all deliverables, including planning and monitoring the project's progress, conducting daily standups, and ensuring that all tasks were completed on schedule.
@@ -116,10 +149,10 @@ Fahim Shariar was responsible for overseeing the production of all deliverables,
 - [Md Rabby](https://github.com/Rabbi1810014) (Product Owner) <br>
 Md Rabby's primary role was to define user stories and create a product backlog. He served as the main point of contact on behalf of the client and identified all product requirements to ensure that the final product meets the client's needs.
 
-- [S.M. Faizul Islam Fair](https://github.com/faizulislamfair) (Team lead & Frontend Engineer)<br>
+- [S.M. Faizul Islam Fair](https://github.com/faizulislamfair) (Team lead, Frontend Engineer & Code Reviewer)<br>
 As a team lead and frontend engineer Faizul was responsible for overseeing the entire frontend development process and ensuring that the team delivered high-quality results. It was his responsilbity to design and implement the user interface and user experience of the software application.
 
-- [Musanna Galib](https://github.com/galib100) (Frontend Engineer) <br>
+- [Musanna Galib](https://github.com/galib100) (Frontend Engineer & Code Reviewer) <br>
 Musanna Galib played a critical role in the development of the website, and was responsible for creating a user-friendly and engaging interface that enhanced the user experience. He worked collaboratively with [Faizul](https://github.com/faizulislamfair) in Frontend development in the project.
 
 - [Md Turag Islam](https://github.com/TuragLab) (UI/UX Designer) <br>
