@@ -131,13 +131,13 @@ Currently there are 6 contributors for this repository.
 <a href = "https://github.com/TuragLab">
 <img src="./readme-images/turag.png" width="60" height="60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/faizulislamfair">
 <img src="https://github.com/faizulislamfair.png?size=60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/galib100">
 <img src="https://github.com/galib100.png?size=60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/Zayed-26">
 <img src="https://github.com/Zayed-26.png?size=60" style="border-radius:50%">
 </a>
 <br><br>
