@@ -149,10 +149,10 @@ Fahim Shariar was responsible for overseeing the production of all deliverables,
 Md Rabby's primary role was to define user stories and create a product backlog. He served as the main point of contact on behalf of the client and identified all product requirements to ensure that the final product meets the client's needs.
 
 - [S.M. Faizul Islam Fair](https://github.com/faizulislamfair) (Team lead, Frontend Engineer & Code Reviewer)<br>
-As a team lead and frontend engineer Faizul was responsible for overseeing the entire frontend development process and ensuring that the team delivered high-quality results. It was his responsilbity to design and implement the user interface and user experience of the software application.
+As a team lead and frontend engineer Faizul was responsible for overseeing the entire frontend development process and ensuring that the team delivered high-quality results. It was his responsilbity to design and implement the user interface and user experience of the software application. On the other hand, as a code reviewer he reviewed code changes made by other developer before they are merged into the main codebase. Code review is an essential part of the software development process as it helps to catch errors, improve code quality, and ensure that the code follows best practices and coding standards.
 
 - [Musanna Galib](https://github.com/galib100) (Frontend Engineer & Code Reviewer) <br>
-Musanna Galib played a critical role in the development of the website, and was responsible for creating a user-friendly and engaging interface that enhanced the user experience. He worked collaboratively with [Faizul](https://github.com/faizulislamfair) in Frontend development in the project.
+Musanna Galib played a critical role in the development of the website, and was responsible for creating a user-friendly and engaging interface that enhanced the user experience. He worked collaboratively with [Faizul](https://github.com/faizulislamfair) in Frontend development and code reviewing in the project. They were responsible for reviewing the code changes for correctness, completeness, maintainability, and performance.
 
 - [Md Turag Islam](https://github.com/TuragLab) (UI/UX Designer) <br>
 As the UI/UX designer of the project Md Turag Islam ensured that the website is visually appealing, easy to use, and provides an optimal user experience. His work helped to enhance the overall quality of the website and ensured that it met the needs of the target audience.
