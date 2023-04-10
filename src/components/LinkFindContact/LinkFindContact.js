@@ -8,10 +8,9 @@ const LinkFindContact = () => {
 
     return (
         <>
-            <Container maxWidth="xl">
+            <Container>
 
                 <Grid container spacing={3} sx={{
-                    px: 16,
                     my: 10,
                 }}>
                     <Grid item md={4}>
@@ -24,23 +23,23 @@ const LinkFindContact = () => {
                             Links
                         </Typography>
                         <Stack direction='row' >
-                       <Typography mr={3} mt={4} sx={{
-                                fontWeight: '500',
-                                fontSize: '20px',
-                                lineHeight: '32px',
-                                textAlign: 'justified',
-                                textDecoration:'underline',
-                            }}>
-                                
-                                 Menu
-                            </Typography>
-                           
                             <Typography mr={3} mt={4} sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',
                                 lineHeight: '32px',
                                 textAlign: 'justified',
-                                textDecoration:'underline',
+                                textDecoration: 'underline',
+                            }}>
+
+                                Menu
+                            </Typography>
+
+                            <Typography mr={3} mt={4} sx={{
+                                fontWeight: '500',
+                                fontSize: '20px',
+                                lineHeight: '32px',
+                                textAlign: 'justified',
+                                textDecoration: 'underline',
                             }}>Blog</Typography>
                         </Stack>
                         <Stack direction='row' >
@@ -49,14 +48,14 @@ const LinkFindContact = () => {
                                 fontSize: '20px',
                                 lineHeight: '32px',
                                 textAlign: 'justified',
-                                textDecoration:'underline',
+                                textDecoration: 'underline',
                             }}> Order</Typography>
                             <Typography mr={3} my={4} sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',
                                 lineHeight: '32px',
                                 textAlign: 'justified',
-                                textDecoration:'underline',
+                                textDecoration: 'underline',
                             }}>About</Typography>
                         </Stack>
 
@@ -82,7 +81,7 @@ const LinkFindContact = () => {
                             fontSize: '20px',
                             lineHeight: '32px',
                             textAlign: 'justified',
-                            textDecoration:'underline',
+                            textDecoration: 'underline',
                         }}>GET DIRECTION</Typography>
                     </Grid>
                     <Grid item md={3} >
@@ -95,7 +94,7 @@ const LinkFindContact = () => {
                             Contact us
                         </Typography>
                         <Stack direction='row' mt={4}>
-                            <img src={mail} alt="mailIcon" style={{ paddingRight: '15px' }}  />
+                            <img src={mail} alt="mailIcon" style={{ paddingRight: '15px' }} />
                             <Typography mr={3} sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',

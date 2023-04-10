@@ -22,9 +22,9 @@ const Home = () => {
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
-            {/* <LinkFindContact />
+            <LinkFindContact />
             <StayUpToDate />
-            <Footer /> */}
+            <Footer />
 
         </div>
     );
