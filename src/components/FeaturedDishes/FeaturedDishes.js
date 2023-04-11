@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './FeaturedDishes.css';
 import { Box, Button, Grid, Paper, Typography, Stack } from '@mui/material';
 import { PRIMARY_COLOR, SECONDARY_COLOR, TERTIARY_COLOR } from './../../colors';
+import { Container } from '@mui/system';
 import dishes_arrow from './../../assets/dishes_arrow.svg';
 import clock from './../../assets/clock.svg';
 import customer from './../../assets/customer.svg';
 import star from './../../assets/star.svg';
-import cart from './../../assets/cart.svg';
 import dish_left_arrow from './../../assets/dish_left_arrow.svg';
 import dish_right_arrow from './../../assets/dish_right_arrow.svg';
 import ramen from './../../assets/ramen.svg';
@@ -15,12 +15,30 @@ import steak from './../../assets/steak.svg';
 import thai_food from './../../assets/thai_food.svg';
 import tofu from './../../assets/tofu.svg';
 import fried_rice from './../../assets/fried_rice.svg';
-import { Container } from '@mui/system';
+import cart from './../../assets/cart.svg';
+import clicked_cart from './../../assets/clicked_cart.svg';
+
+
 
 
 const FeaturedDishes = () => {
+
+    const [dishesButtonOne, setDishesButtonOne] = useState(false);
+    const [dishesButtonTwo, setDishesButtonTwo] = useState(false);
+
+
+    const handleDishesButtonOne = () => {
+        setDishesButtonOne(true);
+    }
+
+    const handleDishesButtonTwo = () => {
+        setDishesButtonTwo(true);
+    }
+
+
     return (
-        <Box sx={{ flexGrow: 1, mt: 16 }}>
+        < Box sx={{ flexGrow: 1, mt: 16 }
+        }>
             <Grid
                 container
             >
@@ -190,25 +208,42 @@ const FeaturedDishes = () => {
                                     <u>See Details</u>
                                 </Typography>
                             </Box>
-                            <Button variant='outlined' sx={{
-                                width: '135px',
-                                height: '36px',
-                                color: '#1E1E1E',
-                                fontWeight: '500',
-                                fontSize: '12px',
-                                lineHeight: '15px',
-                                textAlign: 'justify',
-                                textTransform: 'capitalize',
-                                border: '1px solid',
-                                borderColor: SECONDARY_COLOR,
-                                borderRadius: '8px',
-                                '&:hover': {
-                                    backgroundColor: SECONDARY_COLOR,
+                            <Button onClick={handleDishesButtonOne}
+                                variant='outlined' sx={{
+                                    backgroundColor: dishesButtonOne ? PRIMARY_COLOR : 'transparent',
+                                    width: dishesButtonOne ? '160px' : '150px',
+                                    transition: '0.5s ease-out',
+                                    height: '36px',
+                                    color: '#1E1E1E',
+                                    fontWeight: dishesButtonOne ? '600' : '500',
+                                    fontSize: '12px',
+                                    lineHeight: '15px',
+                                    textAlign: 'justify',
+                                    textTransform: 'capitalize',
+                                    border: '1px solid',
                                     borderColor: SECONDARY_COLOR,
+                                    borderRadius: '8px',
+                                    '&:hover': {
+                                        backgroundColor: SECONDARY_COLOR,
+                                        borderColor: SECONDARY_COLOR,
+                                    },
+
+                                }}>{dishesButtonOne ? 'Added to cart' : 'Add to cart'}
+
+
+                                {
+                                    dishesButtonOne ?
+                                        <img style={{
+                                            paddingLeft: '10px'
+                                        }} src={clicked_cart} alt="" />
+                                        :
+                                        <img style={{
+                                            paddingLeft: '10px'
+                                        }} src={cart} alt="" />
                                 }
-                            }}>Add to cart <img style={{
-                                paddingLeft: '10px'
-                            }} src={cart} alt="" /></Button>
+
+
+                            </Button>
                         </Paper>
 
                         <Paper elevation={3} sx={{
@@ -304,25 +339,40 @@ const FeaturedDishes = () => {
                                     <u>See Details</u>
                                 </Typography>
                             </Box>
-                            <Button variant='outlined' sx={{
-                                width: '135px',
-                                height: '36px',
-                                color: '#1E1E1E',
-                                fontWeight: '500',
-                                fontSize: '12px',
-                                lineHeight: '15px',
-                                textAlign: 'justify',
-                                textTransform: 'capitalize',
-                                border: '1px solid',
-                                borderColor: SECONDARY_COLOR,
-                                borderRadius: '8px',
-                                '&:hover': {
-                                    backgroundColor: SECONDARY_COLOR,
+                            <Button onClick={handleDishesButtonTwo}
+                                variant='outlined' sx={{
+                                    backgroundColor: dishesButtonTwo ? PRIMARY_COLOR : 'transparent',
+                                    width: dishesButtonTwo ? '160px' : '150px',
+                                    transition: '0.5s ease-out',
+                                    height: '36px',
+                                    color: '#1E1E1E',
+                                    fontWeight: dishesButtonTwo ? '600' : '500',
+                                    fontSize: '12px',
+                                    lineHeight: '15px',
+                                    textAlign: 'justify',
+                                    textTransform: 'capitalize',
+                                    border: '1px solid',
                                     borderColor: SECONDARY_COLOR,
+                                    borderRadius: '8px',
+                                    '&:hover': {
+                                        backgroundColor: SECONDARY_COLOR,
+                                        borderColor: SECONDARY_COLOR,
+                                    }
+
+                                }}>{dishesButtonTwo ? 'Added to cart' : 'Add to cart'}
+
+                                {
+                                    dishesButtonTwo ?
+                                        <img style={{
+                                            paddingLeft: '10px'
+                                        }} src={clicked_cart} alt="" />
+                                        :
+                                        <img style={{
+                                            paddingLeft: '10px'
+                                        }} src={cart} alt="" />
                                 }
-                            }}>Add to cart <img style={{
-                                paddingLeft: '10px'
-                            }} src={cart} alt="" /></Button>
+
+                            </Button>
                         </Paper>
 
 
@@ -343,7 +393,7 @@ const FeaturedDishes = () => {
 
                 </Grid>
             </Grid>
-        </Box>
+        </Box >
     );
 };
 
