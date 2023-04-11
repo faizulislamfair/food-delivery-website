@@ -14,5 +14,5 @@ Day 9  | April 07 | <ul><li>Designed 'Footer' Section (UI/UX)<li>Implementation 
 Day 10 | April 08 | <ul><li> Designed Final Animation (UI/UX)<li>Implemented 'Footer' section (Frontend)</ul>
 Day 11 | April 09 | ***Demo Showcase***
 Day 12 | April 10 | <ul><li>Testing and bug fixing</ul>
-Day 13 | April 11 | <ul><li>Testing and bug fixing<li>Creating dribbble shot(UI/UX)</ul>
+Day 13 | April 11 | ***Sprint Retrospective***
 Day 14 | April 12 | ***Final Release***
