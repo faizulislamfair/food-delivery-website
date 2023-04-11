@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             <Container sx={{
-                mt: 6,
+                mt: 8,
                 mb: 10
             }}>
 
@@ -98,3 +98,7 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+
+

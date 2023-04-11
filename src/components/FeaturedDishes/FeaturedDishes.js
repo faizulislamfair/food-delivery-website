@@ -381,14 +381,12 @@ const FeaturedDishes = () => {
 
                     <Stack direction="row" justifyContent="" sx={{
                         alignSelf: 'flex-end',
-                        transform: 'translateY(70%)'
+                        transform: 'translate(-90%, 70%)'
                     }}>
                         <img style={{
-                            paddingRight: '70px'
+                            paddingRight: '65px'
                         }} src={dish_left_arrow} alt="" />
-                        <img style={{
-                            paddingRight: '90px'
-                        }} src={dish_right_arrow} alt="" />
+                        <img src={dish_right_arrow} alt="" />
                     </Stack>
 
                 </Grid>
@@ -398,6 +396,8 @@ const FeaturedDishes = () => {
 };
 
 export default FeaturedDishes;
+
+
 
 
 

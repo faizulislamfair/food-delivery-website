@@ -23,7 +23,7 @@ const BannerDivider = () => {
             justifyContent: 'center',
             alignItems: 'center',
         }}>
-            <Grid container spacing={1}>
+            <Grid className='divider' container spacing={1}>
 
                 <Grid item md={6} lg={6} sx={{
                     display: 'flex',
@@ -80,6 +80,8 @@ const BannerDivider = () => {
 };
 
 export default BannerDivider;
+
+
 
 
 

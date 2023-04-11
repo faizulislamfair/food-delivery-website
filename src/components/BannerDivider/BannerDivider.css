@@ -1,7 +1,13 @@
-.divider-animation:hover {
+.divider> :first-child:hover+ :nth-child(2) {
     transform: translateX(70px);
     transition: 0.5s ease-in-out;
     padding-right: 20px;
+}
+
+.divider-animation:hover {
+    transform: translateX(70px);
+    transition: 0.5s ease-in-out;
+    padding-right: 30px;
 }
 
 
@@ -20,6 +26,10 @@
     padding-left: 45px;
 }
 
+
+.divider> :first-child:not(:hover)+ :nth-child(2) {
+    transition: 0.5s ease-in-out;
+}
 
 .divider-animation:not(:hover) {
     transition: 0.5s ease-in-out;

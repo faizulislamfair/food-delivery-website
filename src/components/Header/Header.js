@@ -56,7 +56,7 @@ function Header() {
                     <Grid container spacing={1}>
 
                         <Grid item md={3} >
-                            <IconButton sx={{
+                            <Box sx={{
                                 py: 3,
                                 px: 16,
                                 display: { xs: 'none', md: 'flex' },
@@ -65,7 +65,8 @@ function Header() {
                                 }
                             }} disableRipple>
                                 <img src={brand_img} alt="" />
-                            </IconButton>
+
+                            </Box>
                         </Grid>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -80,8 +81,7 @@ function Header() {
 
                                 <MenuIcon sx={{
                                     color: 'black',
-                                    px: 2,
-                                    py: 1
+
                                 }} />
 
                             </IconButton>
@@ -103,24 +103,28 @@ function Header() {
                                 sx={{
                                     display: { xs: 'block', md: 'none' }
                                 }}
+                                disableRipple
                             >
                                 {pagesSmall.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                        <Typography textAlign="center">{page}</Typography>
+                                        <Typography textAlign="center" sx={{
+                                            textTransform: 'capitalize',
+                                        }}>{page}</Typography>
                                     </MenuItem>
                                 ))}
                             </Menu>
                         </Box>
 
-                        <IconButton sx={{
+                        <Box sx={{
                             display: { xs: 'flex', md: 'none' },
                             '&:hover': {
                                 backgroundColor: 'transparent',
                             },
-                            flexGrow: 1
+                            flexGrow: 1,
+                            pt: 1
                         }} disableRipple>
                             <img src={brand_img} alt="" />
-                        </IconButton>
+                        </Box>
 
                         {/* Nav bar page show for the md and lg screen  */}
                         <Grid item md={6} >
@@ -139,7 +143,8 @@ function Header() {
                                                 display: 'block',
                                                 fontWeight: '700',
                                                 fontSize: '14px',
-                                                lineHeight: '17px'
+                                                lineHeight: '17px',
+                                                textTransform: 'capitalize'
                                             }}
                                         >
                                             {
@@ -175,7 +180,12 @@ function Header() {
                                         lineHeight: '17px',
                                         border: `3px solid ${PRIMARY_COLOR}`,
                                         borderRadius: '8px',
-                                        mr: 2
+                                        mr: 2,
+                                        textTransform: 'capitalize',
+                                        '&:hover': {
+                                            border: `3px solid ${PRIMARY_COLOR}`,
+                                            color: '#1E1E1E'
+                                        }
                                     }}
                                     variant="outlined" color='warning'>
                                     Sign-up
@@ -189,7 +199,12 @@ function Header() {
                                         color: '#1E1E1E',
                                         lineHeight: '17px',
                                         borderRadius: '8px',
-                                        background: PRIMARY_COLOR
+                                        background: PRIMARY_COLOR,
+                                        textTransform: 'capitalize',
+                                        '&:hover': {
+                                            background: PRIMARY_COLOR,
+                                            color: '#1E1E1E'
+                                        }
                                     }}
                                     variant="">
                                     Sign-in
@@ -205,6 +220,8 @@ function Header() {
     );
 }
 export default Header;
+
+
 
 
 
