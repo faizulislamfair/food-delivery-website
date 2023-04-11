@@ -1,31 +1,40 @@
 .inputField {
     box-sizing: border-box;
-
-    width: 472px;
+    width: 100%;
     height: 64px;
-
-    /* Accent_color2_light */
-
     background: #FFE9E2;
-    /* Secondary_Color2 */
-
     border: 1px solid #FF5722;
     border-radius: 16px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     padding: 10px;
 }
+
+
+input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+    color: #1E1E1E;
+    padding-left: 10px;
+    background-image: url(./../../assets/input_star.svg);
+    background-repeat: no-repeat;
+    background-position: calc(128px) top;
+}
+
+input:focus::placeholder {
+    color: transparent;
+    background-image: none;
+}
+
 
 .circleInput {
     width: 24px;
     height: 24px;
     border-radius: 16px !important;
     background: #FF5722 !important;
-    margin-top: 15px;
-    margin-right: 10px;
-    transform: translateY(7px);
 }
+
+
+
+
+
