@@ -10,7 +10,7 @@ const LinkFindContact = () => {
         <>
             <Container>
 
-                <Grid container spacing={3} sx={{
+                <Grid container sx={{
                     my: 10,
                 }}>
                     <Grid item md={4}>
@@ -50,7 +50,7 @@ const LinkFindContact = () => {
                                 textAlign: 'justified',
                                 textDecoration: 'underline',
                             }}> Order</Typography>
-                            <Typography mr={3} my={4} sx={{
+                            <Typography my={4} sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',
                                 lineHeight: '32px',
@@ -70,13 +70,13 @@ const LinkFindContact = () => {
                             Find us
                         </Typography>
 
-                        <Typography mr={3} mt={4} sx={{
+                        <Typography mt={4} sx={{
                             fontWeight: '500',
                             fontSize: '20px',
                             lineHeight: '32px',
                             textAlign: 'justified'
                         }}> 16/2, North Goran, Khilgaon, Dhaka-1219 </Typography>
-                        <Typography mr={3} mt={4} sx={{
+                        <Typography mt={4} sx={{
                             fontWeight: '500',
                             fontSize: '20px',
                             lineHeight: '32px',
@@ -95,7 +95,7 @@ const LinkFindContact = () => {
                         </Typography>
                         <Stack direction='row' mt={4}>
                             <img src={mail} alt="mailIcon" style={{ paddingRight: '15px' }} />
-                            <Typography mr={3} sx={{
+                            <Typography sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',
                                 lineHeight: '32px',
@@ -109,7 +109,7 @@ const LinkFindContact = () => {
 
                         <Stack direction='row' mt={4}>
                             <img src={telephone} style={{ paddingRight: '15px' }} alt="" />
-                            <Typography mr={3} sx={{
+                            <Typography sx={{
                                 fontWeight: '500',
                                 fontSize: '20px',
                                 lineHeight: '32px',

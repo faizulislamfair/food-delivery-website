@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography } from '@mui/material'
 import React from 'react'
 import { TERTIARY_COLOR } from '../../colors'
-import './About.css';
+import './AboutUs.css';
 import Order from '../../assets/Order.svg'
 import Delivery from '../../assets/Delivery.svg'
 import Enjoyment from '../../assets/Enjoyment.svg'
@@ -43,7 +43,6 @@ const About = () => {
                             filter: 'grayscale(100%)',
                             transition: 'filter 0.2s ease',
                             py: 9,
-                            px: 16,
                             display: { md: 'flex' },
                             '&:hover': {
                                 filter: 'none'
@@ -69,7 +68,6 @@ const About = () => {
                             filter: 'grayscale(100%)',
                             transition: 'filter 0.2s ease',
                             py: 9,
-                            px: 16,
                             display: { md: 'flex' },
                             '&:hover': {
                                 filter: 'none'
@@ -95,7 +93,6 @@ const About = () => {
                             filter: 'grayscale(100%)',
                             transition: 'filter 0.2s ease',
                             py: 9,
-                            px: 16,
                             display: { md: 'flex' },
                             '&:hover': {
                                 filter: 'none'

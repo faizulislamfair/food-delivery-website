@@ -3,7 +3,7 @@ import './Home.css';
 import BannerText from './../BannerText/BannerText';
 import Banner from './../Banner/Banner';
 import BannerDivider from './../BannerDivider/BannerDivider';
-import About from './../About_us/About';
+import AboutUs from './../AboutUs/AboutUs';
 import FeaturedDishes from './../FeaturedDishes/FeaturedDishes';
 import Testimonial from '../Testimonial/Testimonial';
 import CallToAction from './../CallToAction/CallToAction';
@@ -18,19 +18,20 @@ const Home = () => {
             <BannerText />
             <Banner />
             <BannerDivider />
-            <About />
+            <AboutUs />
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
             <LinkFindContact />
             <StayUpToDate />
             <Footer />
-
         </div>
     );
 };
 
 export default Home;
+
+
 
 
 
