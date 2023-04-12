@@ -10,7 +10,13 @@
 [Design](#🎨-design)
 <br>
 
+[Dribbble](#🏀-dribbble)
+<br>
+
 [Jira Project Board](#📝-jira-project-board)
+<br>
+
+[Sprint Retrospective](#🔄-sprint-retrospective)
 <br>
 
 [Live App](#🚀-live-app)
@@ -22,7 +28,7 @@
 [Running the App](#💻-running-the-app)
 <br>
 
-[Version of Dependencies](#💼-version-of-dependencies)
+[Version of Dependencies](#📦-version-of-dependencies)
 <br>
 
 [Contributors](#🤝-contributors)
@@ -41,7 +47,7 @@
 </details>
 
 # 🍔 Food Delivery App with React
-
+Check out the [Live Site](https://food-delivery-website-60505.firebaseapp.com)
 ## 💬 About the Project
 This is a private internal project for a food delivery app built with React. The purpose of this app is to offer a user-friendly and efficient way to order food online. This website is designed to offer a seamless experience for customers who are looking for a hassle-free way to order food from their favorite restaurants. This food delivery website offers a convenient and efficient way for customers to order food online. With its user-friendly interface, intuitive ordering system, and real-time order tracking, it is designed to make the food delivery experience as seamless as possible.
 
@@ -76,10 +82,17 @@ Overall, Jira proved to be an invaluable asset to this project, enabling streaml
 
 You can find the Jira project board for this project here: [Jira](https://irstproject.atlassian.net/jira/software/projects/FD/boards/2)
 
+## 🔄 Sprint Retrospective
+The purpose of sprint retrospectives is to help the team grow and improve, while also providing a space to celebrate successes and build team morale.
+
+We have used [Metro Retro](https://metroretro.io/) as sprint retrospective collaboration tool.
+
+![Retro](./readme-images/sprint-retro.png "Retro")
+
 ## 🚀 Live App
 Firebase Hosting was used to deploy and host this project. Firebase Hosting provided a fast and reliable hosting solution that made it easy to deploy and manage the website.
 
-You can view the live version of the app here: [Live URL](https://food-delivery-website-60505.firebaseapp.com/)
+You can view the live version of the app here: [Live URL](https://food-delivery-website-60505.firebaseapp.com)
 
 ## 🛠️ Installation and Setup
 
@@ -96,7 +109,7 @@ To run the app in development mode, use the following command: `npm start`
 
 To build the app for production, use the following command: `npm run build`
 
-## 💼 Version of Dependencies
+## 📦 Version of Dependencies
 
 ![Node](https://img.shields.io/badge/Node-18.5.0-blue?style=for-the-badge)
 
@@ -131,13 +144,13 @@ Currently there are 6 contributors for this repository.
 <a href = "https://github.com/TuragLab">
 <img src="./readme-images/turag.png" width="60" height="60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/faizulislamfair">
 <img src="https://github.com/faizulislamfair.png?size=60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/galib100">
 <img src="https://github.com/galib100.png?size=60" style="border-radius:50%">
 </a>
-<a href = "https://github.com/1810002">
+<a href = "https://github.com/Zayed-26">
 <img src="https://github.com/Zayed-26.png?size=60" style="border-radius:50%">
 </a>
 <br><br>
@@ -187,4 +200,4 @@ React Router is a routing library for React that provided us with declarative ro
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/faizulislamfair/food-delivery-website/blob/develop/LICENSE.txt) file for details.
