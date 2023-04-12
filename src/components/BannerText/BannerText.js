@@ -7,7 +7,7 @@ import { Container } from '@mui/material';
 const BannerText = () => {
     return (
         <Container sx={{
-            mt: '70px'
+            mt: '70px',
         }}>
             <Typography variant="h2" sx={{
                 fontWeight: '800',

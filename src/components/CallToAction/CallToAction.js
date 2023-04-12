@@ -10,9 +10,8 @@ import cta_arrow from './../../assets/cta_arrow.svg'
 const CallToAction = () => {
     return (
         <Container>
-            <Box width={{ xs: '200', sm: '400', md: '600' }} sx={{
+            <Box sx={{
                 textAlign: 'center',
-                height: 558,
                 borderRadius: 7,
                 backgroundColor: SECONDARY_COLOR,
                 mt: 30,
@@ -72,9 +71,10 @@ const CallToAction = () => {
                     fontWeight: '500',
                     fontSize: '16px',
                     lineHeight: '32px',
-                    mt: 5
+                    mt: 5,
+                    pb: 10
                 }}>
-                    Join the thousands of satisfied PlateDrop customers who love our service.
+                    Join the THOUSANDS of satisfied PlateDrop customers who love our service.
                 </Typography>
 
             </Box>

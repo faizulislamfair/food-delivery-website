@@ -15,6 +15,7 @@ import steak from './../../assets/steak.svg';
 import thai_food from './../../assets/thai_food.svg';
 import tofu from './../../assets/tofu.svg';
 import fried_rice from './../../assets/fried_rice.svg';
+import { Container } from '@mui/system';
 
 
 const FeaturedDishes = () => {
@@ -22,13 +23,13 @@ const FeaturedDishes = () => {
         <Box sx={{ flexGrow: 1, mt: 16 }}>
             <Grid
                 container
-                spacing={-5}
             >
                 <Grid item xs={12} md={6} sx={{
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'center',
                     alignItems: 'center',
+                    mb: 5
                 }}>
 
 
@@ -47,34 +48,34 @@ const FeaturedDishes = () => {
                         fontSize: '20px',
                         lineHeight: '32px',
                         textAlign: 'justify',
-                        width: '472px',
-                        mt: 3
+                        maxWidth: '472px',
+                        mt: 3,
                     }}>
                         Discover the best dishes from top local restaurants on PlateDrop. Our selection features a range of delicious options, prepared with the freshest ingredients and expert techniques. From classic comfort food to gourmet specialties, there's something for everyone. Check out our featured dishes today and satisfy your cravings!
                     </Typography>
-                    <Box sx={{
-                        display: 'flex',
-                        flexDirection: 'row',
-                        justifyContent: 'center',
-                        alignItems: 'center',
-                        pl: 3.5,
-                        mt: 3
-                    }}>
-                        <Typography sx={{
-                            fontWeight: '600',
-                            fontSize: '16px',
-                            lineHeight: '24px',
-                            textAlign: 'justify',
-                            width: '472px',
-                            color: TERTIARY_COLOR,
+                    <Container>
+                        <Box sx={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            mt: 3,
+                            ml: 15
                         }}>
-                            <u>View Full Menu</u>
-                        </Typography>
-                        <img style={{
-                            transform: 'translateX(-330px)',
-                        }} src={dishes_arrow} alt="" />
-                    </Box>
+                            <Typography sx={{
+                                fontWeight: '600',
+                                fontSize: '16px',
+                                lineHeight: '24px',
+                                textAlign: 'justify',
+                                color: TERTIARY_COLOR,
+                                pr: 1,
+                            }}>
+                                <u>View Full Menu</u>
+                            </Typography>
+                            <img style={{
+                            }} src={dishes_arrow} alt="" />
+                        </Box>
+                    </Container>
                 </Grid>
+
                 <Grid item xs={12} md={6}
                     sx={{
                         display: 'flex',
@@ -84,6 +85,7 @@ const FeaturedDishes = () => {
                 >
                     <Box
                         sx={{
+                            mt: 1,
                             display: 'flex',
                             flexWrap: 'wrap',
                             '& > :not(style)': {

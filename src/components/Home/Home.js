@@ -22,10 +22,10 @@ const Home = () => {
             <FeaturedDishes />
             <Testimonial />
             <CallToAction />
-            <LinkFindContact />
-            <StayUpToDate  />
-            <Footer />
-            
+            {/* <LinkFindContact />
+            <StayUpToDate />
+            <Footer /> */}
+
         </div>
     );
 };
