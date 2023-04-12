@@ -66,10 +66,13 @@ You can view the design here: [Figma](https://www.figma.com/file/Ko8egmw3uhSwDUN
 We used Dribbble to showcase our design process and share sneak peeks of our work with the design community.<br>
 You can view the dribbble shot here:  [Dribbble](https://dribbble.com/shots/21153245-PlateDrop-Your-Hassle-Free-Food-Delivery-Solution)
 
+<a href="https://dribbble.com/shots/21153245-PlateDrop-Your-Hassle-Free-Food-Delivery-Solution">
+
 ![Dribble Shot](./readme-images/dribbble1.png "Dribble Shot")
 ![Dribble Shot](./readme-images/dribble2.png "Dribble Shot")
 ![Dribble Shot](./readme-images/dribble3.png "Dribble Shot")
 ![Dribble Shot](./readme-images/dribble4.png "Dribble Shot")
+</a>
 
 ## 📝 Jira Project Board
 Jira project board is a tool that was used throughout the development process. Jira's project management capabilities allowed us to plan, track, and prioritize tasks in an organized and efficient manner.
@@ -83,7 +86,7 @@ Overall, Jira proved to be an invaluable asset to this project, enabling streaml
 You can find the Jira project board for this project here: [Jira](https://irstproject.atlassian.net/jira/software/projects/FD/boards/2)
 
 ## 🔄 Sprint Retrospective
-The purpose of sprint retrospectives is to help the team grow and improve, while also providing a space to celebrate successes and build team morale.
+The purpose of sprint retrospectives was to help the team grow and improve, while also providing a space to celebrate successes and build team morale.
 
 We have used [Metro Retro](https://metroretro.io/) as sprint retrospective collaboration tool.
 
